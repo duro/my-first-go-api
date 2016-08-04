@@ -1,0 +1,12 @@
+package: github.com/duro/my-first-go-api
+import:
+- package: github.com/labstack/echo
+  version: ^2.0.2
+  subpackages:
+  - engine/standard
+  - middleware
+- package: github.com/jinzhu/gorm
+  version: ^1.0.0
+- package: github.com/lib/pq
+- package: github.com/joho/godotenv
+  version: ^1.0.0

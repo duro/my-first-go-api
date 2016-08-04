@@ -1,0 +1,4 @@
+vendor
+.env
+my-first-go-api
+glide.lock
